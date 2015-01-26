@@ -1,0 +1,22 @@
+{
+    "name": "adgrafik/bootstrap",
+    "type": "typo3-flow-package",
+    "description": "Bootstrap framework for TYPO3 Neos.",
+    "authors": [
+        {
+            "name": "Arno Dudek",
+            "email": "webmaster@adgrafik.at",
+            "homepage": "http://www.adgrafik.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/flow": "*",
+        "adgrafik/less": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "AdGrafik\\Bootstrap": "Classes"
+        }
+    }
+}
